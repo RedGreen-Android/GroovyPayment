@@ -19,7 +19,7 @@ public class PaymentTypeRepository {
 
     private static volatile PaymentTypeRepository sInstance;
 
-    private PaymentTypeRepository() {
+    private PaymentTypeRepository() {  //trial
     }
 
     public static synchronized PaymentTypeRepository getInstance() {
