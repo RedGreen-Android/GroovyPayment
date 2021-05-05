@@ -1,3 +1,4 @@
+
 package com.imobile3.groovypayments.data;
 
 import android.content.Context;
@@ -19,7 +20,7 @@ public class PaymentTypeRepository {
 
     private static volatile PaymentTypeRepository sInstance;
 
-    private PaymentTypeRepository() {  //trial
+    private PaymentTypeRepository() {
     }
 
     public static synchronized PaymentTypeRepository getInstance() {
