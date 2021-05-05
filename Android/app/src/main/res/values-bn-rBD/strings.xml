@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Additional Cash Checkout -->
+    <string name="checkout_change_due">সর্বমোট বাকির পরিমাণ:\t\t</string>
+    <string name="checkout_please_re_enter_payment_amount">পেমেন্ট পরিমাণ পুনরায় প্রবেশ করুন</string>
+    <string name="checkout_total_amount_due">সর্বমোট বাকির পরিমাণ:\t\t</string>
+    <string name="checkout_dialog_ok">ঠিক আছে</string>
+
+    <!-- Common -->
     <string name="app_name">Groovy Mobile Payments</string>
     <string name="common_ok">ঠিক আছে</string>
     <string name="common_cancel">বাতিল</string>
@@ -18,6 +26,8 @@
         elementum lacus elit nec diam. Nullam laoreet dui id dui facilisis lacinia. Sed convallis
         feugiat ex, interdum tincidunt sapien consequat ut.</string>
     <string name="reports">রিপোর্ট</string>
+
+    <!-- Login -->
     <string name="prompt_email">ইমেল</string>
     <string name="prompt_password">পাসওয়ার্ড</string>
     <string name="action_sign_in">সাইন ইন বা নিবন্ধন করুন</string>
@@ -27,6 +37,8 @@
     <string name="invalid_password">পাসওয়ার্ডটি অবশ্যই 5 টি অক্ষর হতে হবে</string>
     <string name="invalid_username">কোনও বৈধ ব্যবহারকারীর নাম নয়</string>
     <string name="login_failed">লগইন ব্যর্থ</string>
+
+    <!-- Main Dashboard -->
     <string name="order_entry_description">স্টোর জায় ব্রাউজ করুন বা পণ্য বিক্রয় করুন</string>
     <string name="user_profile_description">আপনার বর্তমান ব্যবহারকারীর সেটিংস দেখুন বা সম্পাদনা করুন।</string>
     <string name="management_description">আপনার পয়েন্ট-অফ-বিক্রয় সেটিংস পরিচালনা করুন।</string>
