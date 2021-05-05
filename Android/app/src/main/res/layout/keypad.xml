@@ -6,6 +6,7 @@
     android:layout_gravity="center_horizontal"
     android:orientation="horizontal">
 
+
     <!-- Row 1 -->
     <TableRow
         android:layout_width="match_parent"
@@ -13,14 +14,17 @@
         android:layout_weight="1">
 
         <Button
+            android:id="@+id/keypad_button_1"
             style="@style/Button.Keypad"
             android:text="@string/keypad_1" />
 
         <Button
+            android:id="@+id/keypad_button_2"
             style="@style/Button.Keypad"
             android:text="@string/keypad_2" />
 
         <Button
+            android:id="@+id/keypad_button_3"
             style="@style/Button.Keypad"
             android:text="@string/keypad_3" />
     </TableRow>
@@ -32,14 +36,17 @@
         android:layout_weight="1">
 
         <Button
+            android:id="@+id/keypad_button_4"
             style="@style/Button.Keypad"
             android:text="@string/keypad_4" />
 
         <Button
+            android:id="@+id/keypad_button_5"
             style="@style/Button.Keypad"
             android:text="@string/keypad_5" />
 
         <Button
+            android:id="@+id/keypad_button_6"
             style="@style/Button.Keypad"
             android:text="@string/keypad_6" />
     </TableRow>
@@ -51,14 +58,17 @@
         android:layout_weight="1">
 
         <Button
+            android:id="@+id/keypad_button_7"
             style="@style/Button.Keypad"
             android:text="@string/keypad_7" />
 
         <Button
+            android:id="@+id/keypad_button_8"
             style="@style/Button.Keypad"
             android:text="@string/keypad_8" />
 
         <Button
+            android:id="@+id/keypad_button_9"
             style="@style/Button.Keypad"
             android:text="@string/keypad_9" />
     </TableRow>
@@ -70,16 +80,19 @@
         android:layout_weight="1">
 
         <Button
+            android:id="@+id/keypad_button_00"
             style="@style/Button.Keypad"
             android:layout_column="0"
             android:text="@string/keypad_00" />
 
         <Button
+            android:id="@+id/keypad_button_0"
             style="@style/Button.Keypad"
             android:layout_column="1"
             android:text="@string/keypad_0" />
 
         <ImageButton
+            android:id="@+id/keypad_button_delete"
             style="@style/Button.Keypad"
             android:padding="@dimen/padding_medium"
             android:scaleType="fitCenter"

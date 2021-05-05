@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">Groovy Mobile Payments</string>
 
+    <!-- Additional Cash Checkout -->
+    <string name="checkout_change_due">Change Due:\t\t</string>
+    <string name="checkout_please_re_enter_payment_amount">Please re-enter payment amount</string>
+    <string name="checkout_total_amount_due">Total Amount Due:\t\t</string>
+    <string name="checkout_dialog_ok">Ok</string>
+
     <!-- Common -->
     <string name="common_ok">OK</string>
     <string name="common_cancel">Cancel</string>
